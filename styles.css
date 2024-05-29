@@ -8,3 +8,157 @@
     margin: 0;
     padding: 0;
 }
+
+/* General Styles */
+body {
+    font-family: 'Roboto';
+}
+
+.content-box1 .emp-text,
+.content-box1 .standard-text,
+.content-box1 .standard-button {
+    margin: 20px 0;
+}
+
+
+.standard-text,
+.standard-button,
+.content-box-four {
+    color: #F8FAF8;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 0.8em;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F8FAF8;
+}
+
+ a:any-link {
+    text-decoration: none;
+    color: #E5E7EB;
+ }
+
+.dark-bgbox {
+    background-color: #1F2937;
+}
+
+.header-secondary-text {
+    font-size: 18px;
+    color: #e5e7EB;
+}
+
+.emp-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.standard-button,
+.sign-up {
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.sign-up {
+    font-weight: bold;
+    width: 100px;
+    height: 35px;
+    background-color: #3882F6;
+    border: 1px solid white;
+}
+
+.information-header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+
+.container,
+.content-box1,
+.content-box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Content Box One */
+
+.content-box1 {
+    flex: initial;
+}
+
+.left-content {
+    width: 500px;
+}
+
+.right-content {
+    width: 500px;
+}
+
+/* Content Box Two */
+.title {
+    display: flex;
+    font-weight: 900;
+    justify-content: center;
+    margin: 20px;
+}
+
+
+.img-frame {
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info {
+    max-width: 250px;
+}
+
+/* Content Box Three */
+
+.content-box-three {
+    background-color: #E5E7EB;
+    padding: 100px 280px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+}
+
+.content-box-four {
+    padding: 200px 100px;
+}
+
+.split-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding: 80px;
+}
+
+
+.right-content-four {
+    margin: 0px 80px;
+}
